@@ -1,12 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Krona+One&family=Permanent+Marker&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&family=Krona+One&family=Permanent+Marker&family=Shadows+Into+Light&family=Sriracha&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
 
-/*font-family: 'Architects Daughter', cursive;
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Krona One', sans-serif;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Shadows Into Light', cursive;
+font-family: 'Sriracha', cursive;
 font-family: 'Ubuntu', sans-serif; */
 
 body{
@@ -37,7 +39,7 @@ form{
 
 h2{
 	font-family: 'Ubuntu', sans-serif;
-	font-style: italic;
+	
 	color: #ffa100;
 	text-align:center;
 	margin:0;
@@ -46,23 +48,21 @@ h2{
 }
 
 .intro{
-	font-family: 'Ubuntu', sans-serif;
-	font-style: italic;
+	font-family: 'Sriracha';
 	text-align:center;
 	margin-bottom: 30px;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .info{
-	font-family: 'Ubuntu', sans-serif;
-	font-style: italic;
-	font-size: 16px;
+	font-family: 'Sriracha';
+	font-size: 18px;
 }
 
 input, textarea{
-
+	font-family: 'Sriracha';
      font-size: 16px;
-     color: #303F9F;
+     color: #D18400;
      width: 100%;
      outline: none;
      padding: 15px;
@@ -73,7 +73,7 @@ input, textarea{
 
 textarea{
 	min-height: 140px;
-	max-height: 200px;
+	max-height: 180px;
 	max-width: 100%;
 }
 
@@ -85,9 +85,9 @@ textarea{
       color: #fff;
       cursor: pointer;
       display: inline-block;
-      font-family: "Roboto";
-      font-size: 16px;
-      padding: 15px;
+      font-family: 'Sriracha';
+      font-size: 25px;
+      padding: 10px;
       width: 100%;
       -webkit-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
