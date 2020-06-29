@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Krona+One&family=Permanent+Marker&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+/*font-family: 'Architects Daughter', cursive;
+font-family: 'Krona One', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+body{
+
+	/*background-size: 100vw 100vh;*/
+	/*background-attachment:fixed;*/
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../imagenes/background.png);
+	background-position: center;
+	background-size: cover;
+	border-top: 4px solid #ffa100;
+	margin: 0;
+	font-family: "Roboto";
+}
+
+form{
+	/*width:450px;*/
+
+	margin:auto;
+	background: white;
+	opacity: 0.9;
+	max-width: 1000px;
+	padding: 30px;
+	box-sizing:border-box;
+	margin-top:80px;
+	box-shadow: 0px 0px 3px grey;
+	border-radius: 50px;
+}
+
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	color: #ffa100;
+	text-align:center;
+	margin:0;
+	font-size:40px;
+	margin-bottom: 10px;
+}
+
+.intro{
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	text-align:center;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.info{
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-size: 16px;
+}
+
+input, textarea{
+
+     font-size: 16px;
+     color: #303F9F;
+     width: 100%;
+     outline: none;
+     padding: 15px;
+     background: none;
+     border: none;
+     border-bottom: 1px solid #ffa100;
+}
+
+textarea{
+	min-height: 140px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton{
+	/*background: #303F9F;*/
+	background: #ffa100;
+      border-radius: 10px;
+      border: 2px solid #ffa100;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+}
+
+#boton:hover{
+	cursor: pointer;
+	background: black;
+
+}
+
+/* .info{ */
+	text-align: justify;
+}
+
+img{
+	/* box-shadow: 0px 0px 3px grey; */
+}
